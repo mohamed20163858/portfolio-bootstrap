@@ -1,0 +1,122 @@
+.desktop-nav-style {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563 ;
+}
+.section-1 {
+  background-image: url(../images/backgroundDesktop.png);
+  min-height: 1000px;
+  background-size: 100% 100%;
+  width: 100%;
+}
+.h1-style {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.37px;
+}
+.h2-style {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+.big-margin-bottom {
+  margin-bottom: 20vh;
+}
+.medium-margin-bottom {
+  margin-bottom: 10vh;
+}
+.small-margin-bottom {
+  margin-bottom: 5vh;
+}
+.text-project-primary {
+  color: #172b4d;
+}
+.bg-project-primary {
+  background-color:#172b4d;
+}
+.text-project-secondary  {
+  color:#36b37f;
+}
+
+.bg-project-secondary {
+ background-color: #36b37f;
+}
+.text-project-light {
+  color: #ebf0ee; 
+}
+.bg-project-light   {
+  background-color: #ebf0ee;
+}
+.title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+.card {
+    margin: 0;
+    width: 20vw;
+    min-height: 474px;
+  }
+.card-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+.li-text-style {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+.btn-width{
+  width: 122px;
+}
+.btn-widt-2{
+    width: 159px;
+  }
+.sticker {
+  background-image: url(../images/crytalUPDesktop.png), url(../images/crytalDownDesktop.png);
+  background-repeat: no-repeat;
+  background-position: right top, left bottom;
+}
+.cricle {
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    border-radius: 100%;
+    background: white;
+    box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.rad-1 {
+  border-radius: 4px;
+}
+.rad-2 {
+  border-radius: 8px;
+  border: 1px solid #c1c7d0;
+}
+.input-width {
+  width: 100%;
+}
+
+.contact-form {
+  background-image: url(../images/square.png), url(../images/finalPiece.png), url(../images/rect-right.png);
+  background-repeat: no-repeat;
+  background-position: left 85%, 23% 73%, right 50%;
+}
