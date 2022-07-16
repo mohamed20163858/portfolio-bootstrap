@@ -1,122 +1,244 @@
 .desktop-nav-style {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
-  color: #344563 ;
+  color: #344563;
 }
-.section-1 {
-  background-image: url(../images/backgroundDesktop.png);
-  min-height: 1000px;
-  background-size: 100% 100%;
-  width: 100%;
-}
-.h1-style {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 48px;
-  line-height: 60px;
-  letter-spacing: 0.37px;
-}
-.h2-style {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
-}
+
 .big-margin-bottom {
   margin-bottom: 20vh;
 }
+
 .medium-margin-bottom {
   margin-bottom: 10vh;
 }
+
 .small-margin-bottom {
   margin-bottom: 5vh;
 }
+
 .text-project-primary {
   color: #172b4d;
 }
+
 .bg-project-primary {
-  background-color:#172b4d;
+  background-color: #172b4d;
 }
-.text-project-secondary  {
-  color:#36b37f;
+
+.text-project-secondary {
+  color: #36b37f;
 }
 
 .bg-project-secondary {
- background-color: #36b37f;
+  background-color: #36b37f;
 }
+
 .text-project-light {
-  color: #ebf0ee; 
+  color: #ebf0ee;
 }
-.bg-project-light   {
+
+.bg-project-light {
   background-color: #ebf0ee;
 }
+
 .title {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
 }
+
 .card {
-    margin: 0;
-    width: 20vw;
-    min-height: 474px;
-  }
+  margin: 0;
+  min-height: 474px;
+}
+
 .card-title {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
 }
+
 .li-text-style {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
 }
-.btn-width{
+
+.btn-width {
   width: 122px;
 }
-.btn-widt-2{
-    width: 159px;
-  }
-.sticker {
-  background-image: url(../images/crytalUPDesktop.png), url(../images/crytalDownDesktop.png);
-  background-repeat: no-repeat;
-  background-position: right top, left bottom;
+
+.btn-widt-2 {
+  width: 159px;
 }
+
 .cricle {
-    width: 80px;
-    height: 80px;
-    margin-top: 40px;
-    border-radius: 100%;
-    background: white;
-    box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+  border-radius: 100%;
+  background: white;
+  box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .rad-1 {
   border-radius: 4px;
 }
+
 .rad-2 {
   border-radius: 8px;
   border: 1px solid #c1c7d0;
 }
+
 .input-width {
   width: 100%;
 }
 
-.contact-form {
-  background-image: url(../images/square.png), url(../images/finalPiece.png), url(../images/rect-right.png);
-  background-repeat: no-repeat;
-  background-position: left 85%, 23% 73%, right 50%;
+.logo {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #28352f;
+}
+
+.green-underline {
+  width: 48px;
+  height: 4px;
+  background-color: #36b37e;
+  border-radius: 24px;
+  display: block;
+}
+
+@media (min-width: 992px) {
+  .card {
+    width: 20vw;
+  }
+
+  .section-1 {
+    background-image: url(../images/backgroundDesktop.png);
+    min-height: 1000px;
+    background-size: 100% 100%;
+    width: 100%;
+  }
+
+  .sticker {
+    background-image: url(../images/crytalUPDesktop.png), url(../images/crytalDownDesktop.png);
+    background-repeat: no-repeat;
+    background-position: right top, left bottom;
+    height: 40vh;
+  }
+
+  .sticker > div {
+    width: 50%;
+  }
+
+  .contact-form {
+    background-image: url(../images/square.png), url(../images/finalPiece.png), url(../images/rect-right.png);
+    background-repeat: no-repeat;
+    background-position: left 85%, 23% 73%, right 50%;
+  }
+
+  .contact-form > div {
+    width: 80%;
+  }
+
+  .h1-style {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+  }
+
+  .h2-style {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .card-2-width {
+    width: 80%;
+  }
+
+  .card-2-width > div {
+    width: 23vw;
+  }
+
+  .contact-form hr {
+    width: 100%;
+    height: 1px;
+    background-color: #dfe1e6;
+    margin-bottom: 0;
+    margin-top: 225px;
+    display: block;
+  }
+}
+
+@media (max-width: 991px) {
+  .section-1-mobile {
+    background-image: url(../images/backgroundMobile.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+  }
+
+  .sticker-mobile {
+    background-image: url(../images/crytalUp.png), url(../images/crytalDown.png);
+    background-repeat: no-repeat;
+    background-position: right top, left bottom;
+    height: 40vh;
+  }
+
+  .sticker-mobile > div {
+    width: 90% !important;
+  }
+
+  .contact-form-mobile {
+    background-image: url(../images/rect.png);
+    background-repeat: no-repeat;
+    background-position: right 90%;
+  }
+
+  .h1-style {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .h2-style {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .contact-form-mobile p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #42526e;
+  }
 }
