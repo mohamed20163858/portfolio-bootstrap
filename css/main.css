@@ -99,7 +99,15 @@
   color: #28352f;
 }
 
-@media (min-width: 768px) 
+.green-underline {
+  width: 48px;
+  height: 4px;
+  background-color: #36b37e;
+  border-radius: 24px;
+  display: block;
+}
+
+@media (min-width: 992px) 
 {
     .card {
         width: 20vw;
@@ -115,8 +123,13 @@
         background-image: url(../images/crytalUPDesktop.png), url(../images/crytalDownDesktop.png);
         background-repeat: no-repeat;
         background-position: right top, left bottom;
+        height: 40vh;
       }
-      
+
+      .sticker > div {
+        width: 50%;
+      }
+
       .contact-form {
         background-image: url(../images/square.png), url(../images/finalPiece.png), url(../images/rect-right.png);
         background-repeat: no-repeat;
@@ -146,11 +159,12 @@
         width : 80%;
       }
       .card-2-width > div {
-        width : 32%;
+        width : 23vw;
       }
 
-      hr {
-        width: 100%;height: 1px;
+      .contact-form hr {
+        width: 100%;
+        height: 1px;
         background-color: #dfe1e6;
         margin-bottom: 0;
         margin-top: 225px;
@@ -158,7 +172,7 @@
       }
 }
 
-@media (max-width: 767px) 
+@media (max-width: 991px) 
 {
     .section-1-mobile {
         background-image: url(../images/backgroundMobile.png);
@@ -170,6 +184,7 @@
         background-image: url(../images/crytalUp.png), url(../images/crytalDown.png);
         background-repeat: no-repeat;
         background-position: right top, left bottom;
+        height: 40vh;
       }
       .sticker-mobile > div {
         width: 90% !important;
