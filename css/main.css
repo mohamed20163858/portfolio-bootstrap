@@ -24,19 +24,19 @@
 }
 
 .bg-project-primary {
-  background-color:#172b4d;
+  background-color: #172b4d;
 }
 
-.text-project-secondary  {
-  color:#36b37f;
+.text-project-secondary {
+  color: #36b37f;
 }
 
 .bg-project-secondary {
- background-color: #36b37f;
+   background-color: #36b37f;
 }
 
 .text-project-light {
-  color: #ebf0ee; 
+  color: #ebf0ee;
 }
 
 .bg-project-light {
@@ -44,7 +44,7 @@
 }
 
 .title {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -52,9 +52,9 @@
 }
 
 .card {
-    margin: 0;
-    min-height: 474px;
-  }
+  margin: 0;
+  min-height: 474px;
+}
 
 .card-title {
   font-family: 'Poppins', sans-serif;
@@ -78,20 +78,20 @@
 }
 
 .btn-widt-2 {
-    width: 159px;
-  }
+  width: 159px;
+}
 
 .cricle {
-    width: 80px;
-    height: 80px;
-    margin-top: 40px;
-    border-radius: 100%;
-    background: white;
-    box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+  border-radius: 100%;
+  background: white;
+  box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .rad-1 {
   border-radius: 4px;
@@ -101,12 +101,13 @@
   border-radius: 8px;
   border: 1px solid #c1c7d0;
 }
+
 .input-width {
   width: 100%;
 }
 
 .logo {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -122,8 +123,7 @@
   display: block;
 }
 
-@media (min-width: 992px) 
-{
+@media (min-width: 992px) {
     .card {
         width: 20vw;
     }
