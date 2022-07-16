@@ -151,6 +151,7 @@
     background-repeat: no-repeat;
     background-position: left 85%, 23% 73%, right 50%;
   }
+
   .contact-form > div {
     width: 80%;
   }
@@ -173,10 +174,11 @@
   }
 
   .card-2-width {
-    width : 80%;
+    width: 80%;
   }
+
   .card-2-width > div {
-    width : 23vw;
+    width: 23vw;
   }
 
   .contact-form hr {
@@ -186,7 +188,7 @@
     margin-bottom: 0;
     margin-top: 225px;
     display: block;
-  }    
+  }
 }
 
 @media (max-width: 991px) {
@@ -196,6 +198,7 @@
     background-repeat: no-repeat;
     min-height: 80vh;
   }
+
   .sticker-mobile {
     background-image: url(../images/crytalUp.png), url(../images/crytalDown.png);
     background-repeat: no-repeat;
@@ -207,10 +210,10 @@
     width: 90% !important;
   }
 
-.contact-form-mobile {
-  background-image: url(../images/rect.png);
-  background-repeat: no-repeat;
-  background-position: right 90%;
+  .contact-form-mobile {
+    background-image: url(../images/rect.png);
+    background-repeat: no-repeat;
+    background-position: right 90%;
   }
 
   .h1-style {
